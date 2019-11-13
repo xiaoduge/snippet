@@ -1,0 +1,19 @@
+<snippet>
+	<description>Class</description>
+	<content><![CDATA[
+class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} 
+{
+public:
+	${1/(\w+).*/$1/}(${3:/* args */});
+    ~${1/(\w+).*/$1/}();
+    
+protected:
+    ${4:/* protected member */}
+
+private:
+    ${2:/* private member */}
+};
+]]></content>
+	<tabTrigger>class_</tabTrigger>
+	<scope>source.c++, source.objc++</scope>
+</snippet>

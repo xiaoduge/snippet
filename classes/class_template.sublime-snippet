@@ -1,0 +1,15 @@
+<snippet>
+	<description>Class Template</description>
+	<content><![CDATA[
+template<typename ${1:T}>
+class ${2:${TM_FILENAME/(.+)\..+|.*/$1/:name}} 
+{
+public:
+	${2/(\w+).*/$1/}(${4:/* args */});
+private:
+    ${3:/* data */}
+};
+]]></content>
+	<tabTrigger>classtemp</tabTrigger>
+	<scope>source.c++, source.objc++</scope>
+</snippet>

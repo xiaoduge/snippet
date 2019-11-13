@@ -1,0 +1,11 @@
+<snippet>
+    <description>Regular Member Function Definition</description>
+    <content><![CDATA[
+${2:int} ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}::${3:function_name}(${4:/* args */}) 
+{
+    ${0:/* code */}
+}
+]]></content>
+    <tabTrigger>funct_m_def</tabTrigger>
+    <scope>source.c, source.objc, source.c++, source.objc++</scope>
+</snippet>
