@@ -1,0 +1,12 @@
+<snippet>
+	<description>Templated Function</description>
+	<content><![CDATA[
+template<typename ${0:T}>
+${2:int} ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}<${0}>::${3:function_name}(${4:/* args */}) noexcept 
+{
+	$5
+}
+]]></content>
+	<tabTrigger>tempfunc_m</tabTrigger>
+	<scope>source.c++</scope>
+</snippet>
