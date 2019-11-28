@@ -2,10 +2,10 @@
     <content><![CDATA[
 /****************************************************************************
 **
-** @Author    dcj
-** @DateTime  1970-01-01
-** @version   v0.0.1
-** @brief     Interface for XXX access
+** @Author    ${1:dcj}
+** @DateTime  ${2:2019-10-31}
+** @version   ${3:v0.0.1}
+** @brief     ${4:Interface for XXX access}
 **
 ****************************************************************************/
 
@@ -13,7 +13,7 @@
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>filecomment</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <scope>source.c++</scope>
+    <scope>source.c, source.objc, source.c++, source.objc++</scope>
 </snippet>
 
 
