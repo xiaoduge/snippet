@@ -1,0 +1,16 @@
+<snippet>
+    <description>switch Block</description>
+    <content><![CDATA[
+switch(${1:control}) 
+{
+case ${2:value}:
+    ${3: /*code*/}
+    break;
+default:
+    break;
+}
+
+]]></content>
+    <tabTrigger>switch</tabTrigger>
+    <scope>source.c++, source.objc++, source.c++11</scope>
+</snippet>
